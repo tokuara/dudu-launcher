@@ -1,5 +1,5 @@
 <resources>
-    <string name="theme_name">黑色主题</string>
+    <string name="theme_name">Черная тема</string>
     <string name="theme_item_title_align">center</string>
     <string name="theme_item_music_cover_type">rect</string>
     <string name="theme_item_amap_daohang_line">hide</string>
