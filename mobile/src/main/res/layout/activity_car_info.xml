@@ -16,7 +16,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
-            android:text="车辆信息"
+            android:text="Информация о транспортном средстве"
             android:textColor="@color/colorPrimary"
             android:textSize="14sp"
             tools:ignore="RtlHardcoded" />
@@ -29,7 +29,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="行车速度:无数据"
+            android:text="Скорость движения: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -43,7 +43,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="发动机转速:无数据"
+            android:text="Частота вращения двигателя: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -57,7 +57,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="发动机水温:无数据"
+            android:text="Температура воды в двигателе: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -71,7 +71,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="水温:无数据"
+            android:text="Температура воды: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingTop="16dp"
-            android:text="胎压信息(不支持):"
+            android:text="Информация о давлении в шинах (не поддерживается):"
             android:textColor="@color/colorPrimary"
             android:textSize="14sp" />
 
@@ -95,7 +95,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="左前轮:无数据"
+            android:text="Левое переднее колесо: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -109,7 +109,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="右前轮:无数据"
+            android:text="Правое переднее колесо: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -123,7 +123,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="左后轮::无数据"
+            android:text="Левое заднее колесо: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
@@ -137,7 +137,7 @@
             android:fadingEdge="horizontal"
             android:padding="16dp"
             android:singleLine="true"
-            android:text="右后轮:无数据"
+            android:text="Правое заднее колесо: данные отсутствуют"
             android:textColor="@color/set_view_title"
             android:textSize="16sp" />
 
