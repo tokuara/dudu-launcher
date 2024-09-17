@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <paths>
-        <!--内置SD卡 Environment.getExternalStorageDirectory() .表示共享所有的目录，也可以指定共享的目录-->
+        <!--Встроенная SD-карта Environment.getExternalStorageDirectory() .Указывает, что все каталоги являются общими, вы также можете указать общие каталоги-->
         <external-path
             name="external-path"
             path="." />
-        <!--内置SD卡 Context.getExternalCacheDir() .表示共享所有的目录，也可以指定共享的目录-->
+        <!--Встроенная SD-карта Context.getExternalCacheDir() .Указывает, что все каталоги являются общими, вы также можете указать общие каталоги-->
         <external-cache-path
             name="external-cache-path"
             path="." />
-        <!--内置SD卡 Context.getExternalFilesDir(null) .表示共享所有的目录，也可以指定共享的目录-->
+        <!--Встроенная SD-карта Context.getExternalFilesDir(null) .Указывает, что все каталоги являются общими, вы также можете указать общие каталоги-->
         <external-files-path
             name="external-files-path"
             path="." />
-        <!--data目录下 Context.getFilesDir() .表示共享所有的目录，也可以指定共享的目录-->
+        <!--data Под оглавлением Context.getFilesDir() .Указывает, что все каталоги являются общими, вы также можете указать общие каталоги-->
         <files-path
             name="files_path"
             path="." />
-        <!--data缓存目录 Context.getCacheDir() .表示共享所有的目录，也可以指定共享的目录-->
+        <!--data Каталог кэша Context.getCacheDir() .Указывает, что все каталоги являются общими, вы также можете указать общие каталоги-->
         <cache-path
             name="cache-path"
             path="." />
-        <!--这个标签Android官方文档中是没有提及，Android设备的根目录，该目录下包含着手机内部存储器，外置SD卡等所有文件的目录-->
+        <!--Этот ярлык Android В официальной документации об этом ничего не упоминается，Android Корневой каталог устройства, который содержит каталог всех файлов, таких как внутренняя память телефона, внешняя SD-карта и т.д.-->
         <root-path
             name="name"
             path="." />
