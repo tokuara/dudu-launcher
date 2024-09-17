@@ -8,7 +8,7 @@ android {
         targetSdkVersion 28
         versionCode 2011007
         versionName "2.011"
-        //规则就是前4位是2.009,后面三位是小版本
+        //Правило таково, что первые 4 цифры равны 2.009, а последние три цифры - младшим версиям.
         javaCompileOptions {
             annotationProcessorOptions {
                 arguments = [eventBusIndex: 'com.wow.carlauncher.common.MyEventBusIndex']
@@ -36,7 +36,7 @@ android {
 
     repositories {
         flatDir {
-            dirs 'libs'   // aar目录
+            dirs 'libs'   // каталог aar
         }
     }
     compileOptions {
@@ -47,37 +47,37 @@ android {
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.squareup.okhttp3:okhttp:3.12.0'
-    //网络请求
+    //Сетевой запрос
     implementation 'com.google.code.gson:gson:2.8.5'
-    //json解析
+    //json Анализ
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:support-v4:28.0.0'
-    //百分比布局
+    //Процентное соотношение
     implementation 'com.zhy:percent-support-extends:1.1.1'
-    //蓝牙
+    //блютуз
     implementation 'com.inuker.bluetooth:library:1.4.0'
-    //定位
+    //местонахождение
     implementation 'com.amap.api:location:4.4.0'
-    //事件总线
+    //Автобус для проведения мероприятий
     implementation 'org.greenrobot:eventbus:3.1.1'
-    //图片加载
+    //Загрузка изображения
     implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
-    //权限检查
+    //Проверка разрешений
     implementation 'com.github.goweii:AnyPermission:1.1.0'
-    //动画
+    //анимация
     implementation 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:2.0.24'
 
 //    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-21'
     //noinspection GradleDependency
     implementation 'com.jakewharton:butterknife:8.8.1'
-    // skin-support 基础控件支持这里不能用新版本,新版本是给androidX准备的
+    // skin-support Базовая поддержка управления, новая версия здесь использоваться не может, новая версия подготовлена для AndroidX
     //noinspection GradleDependency
     implementation 'skin.support:skin-support:3.1.1'
-    //视图注入
+    //Просмотр инъекции
     //noinspection GradleDependency
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
-    //编译视图注入,效率提高
+    //Внедрение представления компиляции для повышения эффективности
     annotationProcessor 'org.greenrobot:eventbus-annotation-processor:3.1.1'
-    //编译事件总线,效率提高
+    //Скомпилируйте шину событий, повысьте эффективность
 }
