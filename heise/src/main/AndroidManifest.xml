@@ -4,6 +4,6 @@
 
     <application
         android:allowBackup="true"
-        android:label="黑色主题"
+        android:label="Черная тема"
         tools:ignore="GoogleAppIndexingWarning" />
 </manifest>
