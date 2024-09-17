@@ -4,11 +4,11 @@
     package="com.wow.carlauncher">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <!-- Используется для доступа к информации о сети Wi-Fi, информация о Wi-Fi будет использоваться для позиционирования в сети -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <!-- Это разрешение используется для получения разрешения на доступ к Wi-Fi, а информация о Wi-Fi будет использоваться для определения местоположения в сети. -->
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <!-- 请求网络 -->
+    <!-- Сеть запросов -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
